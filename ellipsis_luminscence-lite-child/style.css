@@ -22,7 +22,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 /* Import Styles
 -------------------------------------------------------------- */
 @import url('../luminescence-lite/style.css');
-
+@import url(http://fonts.googleapis.com/css?family=Noto+Sans:400,700|Merriweather:300);
 	
 /* Add your Bootstrap responsive.css changes here
 -------------------------------------------------------------- */
@@ -30,10 +30,87 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 /* Add your menu.css changes here
 -------------------------------------------------------------- */
-
+#equal-well nav.main-menu ul li  {
+		font: bold 15px Merriweather, serif;
+		color: #f5f5f5;
+	}
 
 /* Add your style.css changes here
 -------------------------------------------------------------- */
+body {
+	padding:40px 0;
+	-moz-font-smoothing: antialiased;
+	-webkit-font-smoothing: antialiased;
+	background: #1d2022;
+	color: #787c7f;
+	font-family: Noto+Sans, Helvetica, sans-serif;
+	font-size: 100%;
+	font-smoothing: antialiased;
+	line-height: 1.375em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font: normal 24px Merriweather, sans-serif;
+	margin-bottom: 0.813em;
+}
+.dropcap {
+	display: block;
+	width: auto;
+	float: left;
+	margin: 10px 15px 0 0;
+	font: italic 60px Merriweather,georgia;
+	line-height: 50px;
+	color: #7e8184;
+	text-align:center;
+}
+.format-quote h1 {
+	font-family: Merriweather, georgia;
+	font-size: 20px;
+	text-indent: 60px;
+	margin-bottom: 0.5em;
+}
+.more-link {
+	font-family: Noto+Sans, sans-serif;
+	font-size: 12px;
+	text-align: center;
+	text-decoration: none;	
+}
+
+#wrapper {
+	max-width:1200px;
+	min-height:200px;
+	margin:auto;
+	font-size: 13px;	
+	background-color:#ffffff;
+}
+.entry-date-box {
+	width:67px; 
+	height:67px;  
+	position:absolute; 
+	bottom:-29px; 
+	left:45%; 
+	text-align:center;
+	border-radius: 70px;
+}
+#wrapper {
+	max-width:1200px;
+	min-height:200px;
+	margin:auto;
+	font-size: 13px;	
+	background-color:#fff;
+}
+#bottom-wrapper img {
+	border: 1px solid #838383;
+	max-width: 98%;
+}
+.format-image .entry-content img {
+	border: 1px solid #fff;
+}
+#lum-searchsubmit {
+	background-color: #23292a;
+	color: #8f8f93;
+	border-color: #3d4445;
+}
 
 
 /* mobile styling 
